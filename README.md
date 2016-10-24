@@ -12,8 +12,6 @@ Deploy on server of your choice:
 - adjust [configuration](#configuration)
 - `node server` or use any process manager of your choice
 
-If you need to change the routes or port, for now you have to edit the source.
-
 ### Simple pass/fail badge
 
 `http(s)://yourserver.com/appveyor_user/appveyor_project`
