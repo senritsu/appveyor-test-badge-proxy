@@ -19,7 +19,7 @@ function *badge(user, project) {
         const status = `${job.passedTestsCount}/${job.testsCount}`
         this.redirect(`https://img.shields.io/badge/tests-${status}-${color}.svg`)
     } else {
-        const status = passed ? 'passed' : 'failed'
+        const status = passed ? 'passing' : 'failing'
         this.redirect(`https://img.shields.io/badge/tests-${status}-${color}.svg`)
     }
 }
