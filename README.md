@@ -7,6 +7,7 @@ For generating a test status badge for appveyor builds using [shields.io](http:/
 Deploy on server of your choice:
 
 - `git clone https://github.com/senritsu/appveyor-test-badge-proxy.git`
+- `cd appveyor-test-badge-proxy`
 - `npm install`
 - adjust [configuration](#configuration)
 - `node server` or use any process manager of your choice
