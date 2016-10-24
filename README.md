@@ -4,7 +4,7 @@ For generating a test status badge for appveyor builds using [shields.io](http:/
 
 ## Usage
 
-deploy on server of your choice, listens (for now) hardcoded on port 3002.
+Deploy on server of your choice:
 
 - `git clone https://github.com/senritsu/appveyor-test-badge-proxy.git`
 - `npm install`
